@@ -71,24 +71,6 @@ triangle.y2 = 5
 triangle.x3 = 10
 triangle.y3 = 0
 
-// console.log(triangle.getRandomPointInside())
-// console.log(triangle.getSquare())
+console.log(triangle.getRandomPointInside())
+console.log(triangle.getSquare())
 console.log(rec.generatePointInside())
-
-
-
-
-
-// op = sum;
-// console.log(op(2, 4));  // 6
- 
-// op = subtract;
-// console.log(op(6, 4));  // 2
-
-
-
-
-
-
-// tsc --version
-// tsc --help
