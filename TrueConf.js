@@ -1,20 +1,3 @@
-function sum(x, y) {
-    return x + y;
-}
-;
-function subtract(a, b) {
-    return a - b;
-}
-;
-var op;
-var User = /** @class */ (function () {
-    function User() {
-    }
-    User.prototype.getInfo = function () {
-        return "id:" + this.id + " name:" + this.name;
-    };
-    return User;
-}());
 var Recatangle = /** @class */ (function () {
     function Recatangle() {
     }
@@ -51,6 +34,11 @@ var Circle = /** @class */ (function () {
         return this.r * this.r * Math.PI;
     };
     return Circle;
+}());
+var Polygon = /** @class */ (function () {
+    function Polygon() {
+    }
+    return Polygon;
 }());
 var rec = new Recatangle;
 rec.x = 0;

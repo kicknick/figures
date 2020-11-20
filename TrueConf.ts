@@ -1,25 +1,3 @@
-
-function sum (x: number, y: number): number {
-    return x + y;
-};
-
-function subtract (a: number, b: number): number {
-    return a - b;
-};
- 
-let op: (x:number, y:number) => number;
-
-class User {
-    id: number;
-    name: string;
-    getInfo(): string {
-        return "id:" + this.id + " name:" + this.name;
-    }
-}
-
-
-
-
 class Recatangle {
     height: number;
     weight: number;
@@ -69,7 +47,7 @@ class Circle {
 
 
 class Polygon {
-    
+
 }
 
 
